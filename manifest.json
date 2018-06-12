@@ -30,8 +30,8 @@
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "0.2.11",
    	"content_scripts": [{
-		"matches": ["http://121.199.49.95/*"],
+		"matches": ["http://121.199.49.95/*","http://localhost/*"],
 		"js": ["scripts/sysn-cookie.js" ],
-		"run_at":"document_start"
+		"run_at":"document_end"
 	}]
 }
